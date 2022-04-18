@@ -1,0 +1,51 @@
+html{
+    margin:0;
+}
+
+body{
+    margin:0;
+    width: 1440px;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    /* font-family: ; */
+    align-content: center;
+    justify-content:center;
+}
+
+.box{
+    background-color: hsl(213, 19%, 18%);
+    width:25em;
+    height: 25em;
+    border-radius: 25px;
+    text-align: left;
+    padding: 25px;
+}
+
+.box h3{
+    color:#fff;
+    font-size: 30px;
+}
+
+.box p{
+    color: hsl(217, 12%, 63%);
+}
+
+button{
+    border-style: hidden;
+}
+
+#state{
+    display: flex;
+    justify-content: space-between;
+}
+
+#state button {
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 54%)
+}
+
+#submit{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    
+}

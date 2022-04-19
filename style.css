@@ -4,12 +4,17 @@ html{
 
 body{
     margin:0;
-    width: 1440px;
     background-color: hsl(216, 12%, 8%);
     font-size: 15px;
     /* font-family: ; */
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
     align-content: center;
-    justify-content:center;
 }
 
 .box{
@@ -19,6 +24,9 @@ body{
     border-radius: 25px;
     text-align: left;
     padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-content:space-between;
 }
 
 .box h3{
@@ -41,11 +49,19 @@ button{
 
 #state button {
     color: hsl(217, 12%, 63%);
-    background-color: hsl(216, 12%, 54%)
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 #submit{
     background-color: hsl(25, 97%, 53%);
     color: #fff;
-    
+    width: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.hidden {
+    display:none;
 }

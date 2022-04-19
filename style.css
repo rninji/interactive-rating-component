@@ -66,7 +66,7 @@ header{
     justify-content:space-between;
 }
 
-.box h3{
+#rating h3{
     color:#fff;
     font-size: 30px;
     margin: 30px 0 0 0;
@@ -126,21 +126,30 @@ button{
 }
 
 #thank-you{
+    height: 100%;
+    width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
 }
 
 #result{
     background-color:hsl(214, 18%, 23%);
     border-radius: 15px;
-    width: 80%;
+    padding: 5px;
+    margin: 10px;
 }
 
 #result p{
     color:hsl(25, 97%, 53%);
+}
+
+#thank-you h3{
+    color:#fff;
+    font-size: 30px;
+    margin: 5px 0 0 0;
 }
 
 .attribution{

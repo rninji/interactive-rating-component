@@ -37,7 +37,7 @@ header{
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 .box{
@@ -51,6 +51,7 @@ header{
     justify-content: center;
     align-content:space-between;
     align-items: center;
+    
 }
 
 #rating-container{
@@ -161,3 +162,36 @@ button{
 .hidden {
     display:none !important;
 }
+
+
+@media ( max-width: 375px ) {
+    .box { 
+        width: 75vw;
+        height: 85vw;
+        font-size:14px;
+     }
+
+     .box p{
+        line-height: 20px;
+     }
+
+     #rating h3{
+        font-size: 25px;
+        margin: 20px 0 0 0;
+    }
+
+    #thank-you h3{
+        font-size:25px;
+        margin: 0;
+    }
+
+    #state button{
+        height:35px;
+        width:35px;
+        font-size:13px;
+    }
+
+    #submit{
+        margin:10px 0;
+    }
+  }
